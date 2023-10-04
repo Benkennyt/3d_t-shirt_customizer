@@ -14,7 +14,9 @@ html {
     font-family: "Inter var", sans-serif;
   }
 }
-
+.all {
+  background-color: green
+}
 .app {
   @apply relative w-full h-screen overflow-hidden;
 }

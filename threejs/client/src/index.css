@@ -92,3 +92,13 @@ input[type="file"] {
 .sketch-picker > div:nth-child(3) {
   display: none !important;
 }
+
+.intro-header{
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+  font-family: cursive;
+}
+
+.logo{
+  font-weight:700 ;
+  font-size: 30px;
+}

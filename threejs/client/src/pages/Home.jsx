@@ -15,8 +15,8 @@ const Home = () => {
             <h1 className='logo'>Shirtzerr</h1>
           </motion.header>
           <motion.div className='home-content' {...headContainerAnimation}>
-            <motion.div {...headTextAnimation}>
-              <h2 className='intro-header head-text'>
+            <motion.div className='hidden  sm:block' {...headTextAnimation}>
+              <h2 className='intro-header head-text' >
                 Make it <br className='xl:block hidden'/> HAPPEN
               </h2>
             </motion.div>

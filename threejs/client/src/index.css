@@ -95,10 +95,18 @@ input[type="file"] {
 
 .intro-header{
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
-  font-family: cursive;
+  font-family: cursive Arial, Helvetica, sans-serif;
 }
 
 .logo{
   font-weight:700 ;
   font-size: 30px;
+}
+
+@media screen and (min-width: 1500px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
